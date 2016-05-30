@@ -1,0 +1,22 @@
+{
+  "name": "nameofyoursite",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "run:browser": "hackages live",
+    "run:watch": "hackages watch",
+    "prestart": "npm i",
+    "start": "npm-run-all --parallel run:watch run:browser"
+  },
+  "author": "your-name",
+  "license": "MIT",
+  "dependencies": {
+    "hackages": "0.0.8",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  },
+  "devDependencies": {
+    "npm-run-all": "^2.1.1"
+  }
+}
