@@ -12,11 +12,12 @@
   "author": "your-name",
   "license": "MIT",
   "dependencies": {
-    "hackages": "0.0.8",
-    "react": "^15.0.2",
-    "react-dom": "^15.0.2"
+    "react": "^15.1.0",
+    "react-dom": "^15.0.2",
+    "typescript": "^1.8.10"
   },
   "devDependencies": {
-    "npm-run-all": "^2.1.1"
+    "npm-run-all": "^2.1.1",
+    "typings": "^1.0.4"
   }
 }
