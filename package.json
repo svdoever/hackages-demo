@@ -1,19 +1,19 @@
 {
   "name": "nameofyoursite",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "test": "jest",
     "run:browser": "hackages live",
     "run:watch": "hackages watch",
-    "prestart": "npm i",
+    "prestart": "npm i && typings i",
     "start": "npm-run-all --parallel run:watch run:browser"
   },
   "author": "your-name",
   "license": "MIT",
   "dependencies": {
     "react": "^15.1.0",
-    "react-dom": "^15.0.2",
+    "react-dom": "^15.1.0",
     "typescript": "^1.8.10"
   },
   "devDependencies": {
